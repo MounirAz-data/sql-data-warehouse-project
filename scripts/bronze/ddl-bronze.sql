@@ -68,7 +68,7 @@ IF OBJECT_ID ('bronze.erp_loc_a101' , 'U') IS NOT NULL
     DROP TABLE bronze.erp_loc_a101;
 CREATE TABLE bronze.erp_loc_a101 (
     cid   VARCHAR(50),
-    cnrty VARCHAR(50)
+    cntry VARCHAR(50)
 );
 GO
 
